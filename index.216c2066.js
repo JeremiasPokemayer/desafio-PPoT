@@ -135,7 +135,7 @@ const e={data:{currentGame:{computerPlay:"",myPlay:""},history:[{}],puntajes:{pu
     .h4, .h3{
       margin:0;
     }
-  `;let l=a.querySelector(".button-volver");return l?.addEventListener("click",()=>{t.goTo("/desafio-PPoT/welcome")}),a.appendChild(r),a}}];!function(e){function a(e){history.pushState({},"",e),n(e)}function n(n){for(let i of(console.log("El handleRoute recibio una nueva ruta",n),t))if(i.path.test(n)){let t=i.component({goTo:a});e?.firstChild&&e.firstChild.remove(),e?.appendChild(t)}}"/"==location.pathname?a("/desafio-PPoT/welcome"):n(location.pathname),window.onpopstate=function(){n(location.pathname)}}(document.querySelector(".root")),customElements.define("custom-piedra",class extends HTMLElement{constructor(){super(),this.render()}render(){let e=this.getAttribute("variant")||"body",t=this.attachShadow({mode:"open"}),a=document.createElement("div"),n=document.createElement("style"),i=document.createElement("img");i.src="https://i.ibb.co/jvsry3t5/piedra-1.png",i.className=e,n.innerHTML=`
+  `;let l=a.querySelector(".button-volver");return l?.addEventListener("click",()=>{t.goTo("/desafio-PPoT/welcome")}),a.appendChild(r),a}}];!function(e){function a(e){history.pushState({},"",e),n(e)}function n(n){for(let i of(console.log("El handleRoute recibio una nueva ruta",n),t))if(i.path.test(n)){let t=i.component({goTo:a});e?.firstChild&&e.firstChild.remove(),e?.appendChild(t)}}"/desafio-PPoT/"==location.pathname?a("/desafio-PPoT/welcome"):n(location.pathname),window.onpopstate=function(){n(location.pathname)}}(document.querySelector(".root")),customElements.define("custom-piedra",class extends HTMLElement{constructor(){super(),this.render()}render(){let e=this.getAttribute("variant")||"body",t=this.attachShadow({mode:"open"}),a=document.createElement("div"),n=document.createElement("style"),i=document.createElement("img");i.src="https://i.ibb.co/jvsry3t5/piedra-1.png",i.className=e,n.innerHTML=`
             .seleccion-piedra{
                 width: 104px;
                 height: 238px;
@@ -212,4 +212,4 @@ const e={data:{currentGame:{computerPlay:"",myPlay:""},history:[{}],puntajes:{pu
                 border: 20px solid black;
               }
           `,a.appendChild(i),a.appendChild(n)}});
-//# sourceMappingURL=index.d20fe2fa.js.map
+//# sourceMappingURL=index.216c2066.js.map
