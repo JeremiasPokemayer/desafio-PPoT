@@ -5,19 +5,19 @@ import { initResult } from "./pages/result";
 
 const routes = [
   {
-    path: /\/welcome/,
+    path: /\/desafio-PPoT\/welcome/,
     component: initWelcome,
   },
   {
-    path: /\/inicio/,
+    path: /\/desafio-PPoT\/inicio/,
     component: initInicio,
   },
   {
-    path: /\/game/,
+    path: /\/desafio-PPoT\/game/,
     component: initGame,
   },
   {
-    path: /\/result/,
+    path: /\/desafio-PPoT\/result/,
     component: initResult,
   },
 ];
