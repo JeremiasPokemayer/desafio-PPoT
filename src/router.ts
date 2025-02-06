@@ -44,7 +44,7 @@ export function initRouter(container: Element | null) {
     }
   }
   if (location.pathname == "/") {
-    goTo("/welcome");
+    goTo("/desafio-PPoT/welcome");
   } else {
     handleRoute(location.pathname);
   }

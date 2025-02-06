@@ -19,7 +19,7 @@ export function initWelcome(params) {
 
   const buttonEmpezar = div.querySelector(".button-empezar");
   buttonEmpezar?.addEventListener("click", () => {
-    params.goTo("/inicio");
+    params.goTo("/desafio-PPoT/inicio");
   });
   return div;
 }

@@ -18,7 +18,7 @@ export function initInicio(params) {
 
   const buttonJugar = div.querySelector(".button-jugar");
   buttonJugar?.addEventListener("click", () => {
-    params.goTo("/game");
+    params.goTo("/desafio-PPoT/game");
   });
   return div;
 }

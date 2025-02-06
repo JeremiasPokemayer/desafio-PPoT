@@ -40,7 +40,7 @@ export function initGame(params) {
 
       setTimeout(() => {
         divHide.style.display = "none";
-        params.goTo("/result");
+        params.goTo("/desafio-PPoT/result");
       }, 3000);
     }
   }, 1000);

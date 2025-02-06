@@ -80,7 +80,7 @@ export function initResult(params) {
 
   const buttonVolver = div.querySelector(".button-volver");
   buttonVolver?.addEventListener("click", () => {
-    params.goTo("/welcome");
+    params.goTo("/desafio-PPoT/welcome");
   });
 
   div.appendChild(style);
